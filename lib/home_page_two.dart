@@ -11,6 +11,7 @@ class _HomePageTwoState extends State<HomePageTwo> {
   @override
   Widget build(BuildContext context) {
    double _width = MediaQuery.of(context).size.width; // Mobile ba device er screen er width count korbe
+   double _height = MediaQuery.of(context).size.height; // Mobile ba device er screen er width count korbe
 
     return Scaffold(
       appBar: AppBar(
@@ -18,8 +19,10 @@ class _HomePageTwoState extends State<HomePageTwo> {
       ),
       body: Container(
         width: _width,
+        height: _height,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
               height: 100.0,
