@@ -28,6 +28,14 @@ class _HomePageTwoState extends State<HomePageTwo> {
               height: 100.0,
               width: 300.0,
               color: Colors.greenAccent,
+              child: Center(
+                child: Text("Hello", style: TextStyle(
+                  color: Colors.red,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20.0,
+                  
+                ),),
+              )
             ),
             SizedBox(
               height: 10.0,

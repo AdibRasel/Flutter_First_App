@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/CulumnAndRow.dart';
 
 // import 'package:my_app/home_page.dart';
 import 'package:my_app/home_page_two.dart';
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: HomePage(),
-      home: HomePageTwo(),
+      // home: HomePageTwo(),
+      home: CulumnAndRow(),
     );
   }
 }
