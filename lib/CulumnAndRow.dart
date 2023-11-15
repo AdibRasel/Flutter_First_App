@@ -262,7 +262,7 @@ class _CulumnAndRowState extends State<CulumnAndRow> {
             ListTile(
               leading: Icon(Icons.email),
               title: Text("Email"),
-              trailing: Icon(Icons.arrow_forward),
+              trailing: Icon(Icons.email),
             ),
             ListTile(
               leading: Icon(Icons.payment),
