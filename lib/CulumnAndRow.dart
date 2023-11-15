@@ -277,74 +277,115 @@ class _CulumnAndRowState extends State<CulumnAndRow> {
       ),
 
 
+      //
+      // body: SingleChildScrollView(
+      //   scrollDirection: Axis.horizontal,
+      //   child: Container(
+      //
+      //     // width: _width,
+      //     // height: _height,
+      //
+      //
+      //     child: Row(
+      //
+      //       children: [
+      //
+      //         Container(
+      //           height: 100.0,
+      //           width: 200.0,
+      //           child: Expanded(
+      //             child: Container(
+      //               height: 200.0,
+      //               color: Colors.amberAccent[200],
+      //               child: Text("1"),
+      //           )),
+      //         ),
+      //
+      //         Container(
+      //           height: 100.0,
+      //           width: 200.0,
+      //           child: Expanded(
+      //             child: Container(
+      //               height: 200.0,
+      //               color: Colors.blue[200],
+      //               child: Text("2"),
+      //           )),
+      //         ),
+      //
+      //         Container(
+      //           height: 100.0,
+      //           width: 200.0,
+      //           child: Expanded(
+      //             child: Container(
+      //               height: 200.0,
+      //               color: Colors.cyan[200],
+      //               child: Text("3"),
+      //           )),
+      //         ),
+      //
+      //         Container(
+      //           height: 100.0,
+      //           width: 200.0,
+      //           child: Expanded(
+      //             child: Container(
+      //               height: 200.0,
+      //               color: Colors.deepOrange[200],
+      //               child: Text("4"),
+      //           )),
+      //         ),
+      //
+      //
+      //       ],
+      //
+      //
+      //
+      //
+      //
+      //     ),
+      //
+      //   ),
+      // ),
 
-      body: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        child: Container(
-      
-          // width: _width,
-          // height: _height,
-      
-      
-          child: Row(
-              
-            children: [
-      
-              Container(
+
+      body: Container(
+        width: _width,
+        height: _height,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
                 height: 100.0,
-                width: 200.0,
-                child: Expanded(
-                  child: Container(
-                    height: 200.0,            
-                    color: Colors.amberAccent[200],
-                    child: Text("1"),
-                )),
-              ),
-      
-              Container(
-                height: 100.0,
-                width: 200.0,
-                child: Expanded(
-                  child: Container(
-                    height: 200.0,            
-                    color: Colors.blue[200],
-                    child: Text("2"),
-                )),
-              ),
-      
-              Container(
-                height: 100.0,
-                width: 200.0,
-                child: Expanded(
-                  child: Container(
-                    height: 200.0,            
-                    color: Colors.cyan[200],
-                    child: Text("3"),
-                )),
-              ),
-      
-              Container(
-                height: 100.0,
-                width: 200.0,
-                child: Expanded(
-                  child: Container(
-                    height: 200.0,            
-                    color: Colors.deepOrange[200],
-                    child: Text("4"),
-                )),
-              ),
-      
-            ],
-      
-              
-      
-          
-              
-          ),
+                width: 300.0,
+                color: Colors.greenAccent,
+                child: Center(
+                  child: Text("Hello", style: TextStyle(
+                    color: Colors.red,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20.0,
+
+                  ),),
+                )
+            ),
+            SizedBox(
+              height: 10.0,
+            ),
+            Container(
+              height: 100.0,
+              width: 300.0,
+              color: Colors.deepOrangeAccent,
+            ),
+            SizedBox(
+              height: 10.0,
+            ),
+            Container(
+              height: 100.0,
+              width: 300.0,
+              color: Colors.cyanAccent,
+            ),
+          ],
         ),
       ),
-
-
 
 
 
